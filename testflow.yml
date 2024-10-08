@@ -17,12 +17,15 @@ class MultiplyTestCase(unittest.TestCase):
        self.assertEqual(result, 0)
    def test_5(self):
        result = multiply(-3, 0)
-       self.assertEqual(result,0)
+       self.assertEqual(result,0) #
        
    def test_6(self):
         result = multiply(3, 1)
         self.assertEqual(result,3)  
-        #change#
+       def test_7(self):
+        result = multiply(0, 1)
+        self.assertEqual(result,0)  
+      
        
        
     
